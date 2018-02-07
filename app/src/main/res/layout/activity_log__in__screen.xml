@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.inzenjer.ram.inzenjerstud.Log_In_Screen">
+
+<ScrollView
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/Register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="name"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/Register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="email"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/Register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="email"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/department_selection_android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="android" />
+
+            <CheckBox
+                android:id="@+id/department_selection_embedded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="embedded" />
+
+            <CheckBox
+                android:id="@+id/department_selection_java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="java" />
+
+            <CheckBox
+                android:id="@+id/department_selection_marketing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="marketing" />
+
+            <CheckBox
+                android:id="@+id/department_selection_HR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HR" />
+
+            <CheckBox
+                android:id="@+id/department_selection_php"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="php" />
+            <CheckBox
+                android:id="@+id/department_selection_net"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=".net" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register_register_button"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

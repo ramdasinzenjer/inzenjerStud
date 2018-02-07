@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "328772360649",
+    "firebase_url": "https://inzstudents-d2d1c.firebaseio.com",
+    "project_id": "inzstudents-d2d1c",
+    "storage_bucket": "inzstudents-d2d1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328772360649:android:55e99b1fbc47da90",
+        "android_client_info": {
+          "package_name": "com.inzenjer.ram.inzenjerstud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328772360649-5ecu8csq54b687ua3o6t7jcvep0umc5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7eE78JCZ7KRgQB3JDifxF9EamoL78qHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
